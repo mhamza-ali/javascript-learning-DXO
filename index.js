@@ -65,20 +65,40 @@
 
 // operators
 // arithmetic operators
-console.log(2+5)
-console.log(2-5)
-console.log(2*5)
-console.log(2%5)
-console.log(2/5)
-console.log(2**5)
+// console.log(2+5)
+// console.log(2-5)
+// console.log(2*5)
+// console.log(2%5)
+// console.log(2/5)
+// console.log(2**5)
 
 // increment decrement operator
-let a= 1;
-console.log(a);
-console.log(++a); //prefix
-console.log(--a);
-console.log(a++);
-console.log(a); //postfix
+// let a= 1;
+// console.log(a);
+// console.log(++a); //prefix
+// console.log(--a);
+// console.log(a++);
+// console.log(a); //postfix
+
+// comparison operators
+
+// let a = 9;
+// let b = 4;
+// console.log(a==b);
+// console.log(a!=b);
+// console.log(a>b);
+// console.log(a<b);
+// console.log(a===b);
+// console.log(a<=b);
+// console.log(a>=b);
+
+
+
+
+
+
+
+
 
 
 
