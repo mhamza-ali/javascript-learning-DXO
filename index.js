@@ -209,9 +209,17 @@
 //     console.log("JS")
 // })()
 
+// arrow fn
 
+// let a = (a,b)=>{
+//     return a+b
+// }
+// console.log(a(2,3));
 
-
+// let b = ()=>{
+//     console.log("JS")
+// }
+// b();
 
 
 
