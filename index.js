@@ -143,12 +143,58 @@
 
 // loops
 
+// for (var i = 0; i < 10; i++){
+//     console.log("Hello")
+// }
 
+// for (var i = 0; i <= 10; i++){
+//     console.log("2 x " +i+ "=" +2*i)
+// }
 
+// // backticks
+// for (var i = 0; i <= 10; i++){
+//     console.log(`2 x ${i} = ${2*i}`)
+// }
 
+//while
 
+// var i = 1;
+// while(i<=10){
+//     console.log(`2 x ${i} = ${2*i}`);
+//     i++;
+// }
 
+// do while
 
+// var i = 1;
+// do{
+//     console.log(`2 x ${i} = ${2*i}`);
+//     i++;
+// }while(i<=10)
+
+// functions
+
+// function name(a){
+//     console.log(a);
+// }
+
+// name("JS");
+
+// function add(b,c){
+//     console.log(b+c);
+// }
+// add(4,5);
+
+let a = 3; //global
+
+function local(){
+    let b = 4; //local
+    console.log(b)
+
+}
+local();
+console.log(a)
+console.log(b)
 
 
 
