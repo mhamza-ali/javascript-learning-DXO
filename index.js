@@ -221,23 +221,71 @@
 // }
 // b();
 
+// arrays
 
+// let name = ["john", "jane", "js", 1, true, null]
+// name.push("cena") //addding at the end of array
+// name.splice(1,2) //removing with index start and end value
+// name.splice(1,0, "html") // also for adding
+// console.log(name)
+// console.log(name.length)
+// console.log(name[1]) //index 1 element
 
+// let num = [10,20,30,40,50,60];
+// console.log(num);
+// for(let i=0;i<num.length;i++){
+//     console.log(num[i]);
+// }
 
+// let num = [10,20,30,40,50,60];
+// num.forEach((val,index,array) => {
+//     console.log(val,index,array)
+// })
+// in this below case it doesnt return the value if we store in other variable 
+// to solve this problem we use map which create new array 
 
+// let num = [10,20,30,40,50,60];
+// let a= num.forEach((val,index,array) => {
+//     return val
+// })
+// console.log(a)
 
+// let num = [10,20,30,40,50,60];
+// let a= num.map((val,index,array) => {
+//     return val
+// })
+// console.log(a) // here old array remains same and it creates new array
 
+// let num = [10,20,30,40,50,60];
+// let num2 = [11,21,30,70,110,90];
+// console.log(num.concat(num2))
+// console.log(num.indexOf(30))
+// console.log(num.reverse())
+// console.log(num.sort())
 
+//more array methods
 
+// let num = [10,20,30,40,50,60];
+// let a = num.slice(1,4);
+// console.log(a)
+// console.log(num)
 
+// let num = [10,20,30,40,50,60];
+// let a = num.filter((val,index,arr)=>{
+//     if(val>=10 && val <=25){
+//         return val
+//     }
+// })
+// console.log(a)
 
+// let num2 = [11,21,30,70,110,90];
+// console.log(num2.toString())
 
-
-
-
-
-
-
+// let num = '10,20,30'
+// let arr = num.split(',')
+// arr.forEach(element => {
+//     console.log(element)
+// });
 
 
 
