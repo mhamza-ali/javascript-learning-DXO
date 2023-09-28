@@ -92,6 +92,69 @@
 // console.log(a<=b);
 // console.log(a>=b);
 
+// logical operators
+
+// console.log(4>3 || 4<5); // or
+// console.log(4>3 && 4>5); //and
+// console.log(!false); // Not
+
+// conditionals
+
+// let age = 18;
+// let name = "johns";
+// if(age>=18){
+//     if(name=="john"){
+//     console.log("eligible");
+//     }
+//     else{
+//         console.log("name not match")
+//     }
+// }
+// else{
+//     console.log("not eligible");
+// }
+
+// let a = 18;
+// let b = 15;
+// if(a>b){
+//     console.log("A is greater")
+// }
+// else if(b>a){
+//     console.log("B is greater than a")
+// }
+// else{
+//     console.log("Both are equal")
+// }
+
+let ch =1;
+switch(ch){
+case 1:
+    console.log("I am 1")
+    break
+case 2:
+    console.log("I am 2")
+    break
+case 3:
+    console.log("I am 3")
+    break
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
