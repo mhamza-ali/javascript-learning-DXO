@@ -185,21 +185,29 @@
 // }
 // add(4,5);
 
-let a = 3; //global
+// let a = 3; //global
 
-function local(){
-    let b = 4; //local
-    console.log(b)
+// function local(){
+//     let b = 4; //local
+//     console.log(b)
 
-}
-local();
-console.log(a)
-console.log(b)
+// }
+// local();
+// console.log(a)
+// console.log(b)
 
+//anonymous func
 
+// let fun = function(){
+//     console.log("Hello")
+// }
+// fun();
 
+//self invoke imediately
 
-
+// (function(){
+//     console.log("JS")
+// })()
 
 
 
