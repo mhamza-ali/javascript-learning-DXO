@@ -364,15 +364,15 @@
 
 // objects
 
-let obj = {
-    name:"Bero",
-    age:21,
-    "last name":"jon",
-    fun: function(){
-        console.log("i am fn")
-    },
-    arr: [10,0,30]
-}
+// let obj = {
+//     name:"Bero",
+//     age:21,
+//     "last name":"jon",
+//     fun: function(){
+//         console.log("i am fn")
+//     },
+//     arr: [10,0,30]
+// }
 // console.log(obj.name)
 // console.log(obj["last name"])
 // console.log(obj.fun())
@@ -390,3 +390,24 @@ let obj = {
 // for(let i in Object.keys(obj)){
 //     console.log(obj[i])
 // }
+
+//objects inside array
+
+// let arr = [
+//     {use:1,name:"tate"},
+//     {use:2,name:"tat"},
+//     {use:3,name:"ta"},
+// ]
+// // console.log(arr[0])
+
+// // for(let i in arr){
+// //     console.log(i)
+// //     console.log(arr[i])
+// // }
+
+// // let [item1, item2] = arr;
+// // console.log(item1)
+
+// let [{name}, item2,{name:name1}] = arr;
+// console.log(name)
+// console.log(name1)
