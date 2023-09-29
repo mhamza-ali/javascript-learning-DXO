@@ -300,3 +300,32 @@
 //     console.log(n)
 // }
 
+
+// //nested array
+// let arr = [
+//     ["john", 30],
+//     ["Can", 28],
+//     ["rob", 22]
+// ]
+// console.log(arr)
+
+// for(i=0;i<arr.length;i++){
+//     for(j=0;j<arr[i].length;j++){
+//         console.log(i)
+//         console.log(j)
+//         console.log(arr[i][j])
+//     }
+// }
+
+// arr.forEach((data)=>{
+//     data.forEach((val)=>{
+//         console.log(val)
+//     })
+
+// })
+
+// for(let ar of arr){
+//     for(i of ar){
+//         console.log(i)
+//     }
+// }
