@@ -362,6 +362,13 @@
 // console.log(item2)
 // console.log(item3)
 
+// objects
+
+let obj = {
+    name:"Bero",
+    age:21
+}
+console.log(obj.name)
 
 
 
