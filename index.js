@@ -287,6 +287,9 @@
 //     console.log(element)
 // });
 
+// let jo = arr.join(",")
+// console.log(jo)
+
 
 
 
