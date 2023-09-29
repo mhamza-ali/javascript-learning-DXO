@@ -290,7 +290,13 @@
 // let jo = arr.join(",")
 // console.log(jo)
 
+// let num = [10,20,30,40,50,60];
+// for(let n in num){ //print index directly
+//     console.log(num[n])
+// }
 
-
-
+// let num = [10,20,30,40,50,60];
+// for(let n of num){ //print directly values
+//     console.log(n)
+// }
 
