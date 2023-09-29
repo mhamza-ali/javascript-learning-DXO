@@ -353,8 +353,14 @@
 // console.log(b)
 // console.log(a)
 
+// let array1 = ["thomas", "dogesh","Neo","Hi","DEH","JESh"]
+// // let item1 = array1[0] //not good practice
+// // let item2 = array1[1]
 
-
+// let [item1,item2,...item3] = array1 //goood practice
+// console.log(item1)
+// console.log(item2)
+// console.log(item3)
 
 
 
