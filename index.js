@@ -443,8 +443,22 @@
 // }
 // fun()
 
+// // sets
+// const arr = [10,20,30,30]
+// console.log(arr)
+// const s = new Set([10,20,30,30,40])
+// console.log(s)
+// s.add(70)
+// console.log(s)
+// console.log(arr.length)
+// console.log(s.length) //doesnt give length
 
-
+// // way to find len
+// length = 0
+// for(let element of s){
+//     length++;
+// }
+// console.log(length)
 
 
 
