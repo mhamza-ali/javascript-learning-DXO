@@ -329,3 +329,33 @@
 //         console.log(i)
 //     }
 // }
+
+// let arr1 = ["john", 32, true]
+// let arr2 = arr1
+// arr2.push("log") //normal push krne pr arr1 ma bhi value ja rhe thats why we use spread operator
+// let arr2 = arr1.slice(0)
+//let arr2 = arr1.slice(0).concat(["dogesh"])
+//arr2.push("berg")
+//arr1.push("Berg")
+
+
+// let arr2 = [...arr1]
+// console.log(arr1)
+// arr2.push("DD")
+// console.log(arr2)
+
+// let a = 3;
+// let b = a;
+
+// console.log(a)
+// console.log(b)
+// b = 4;
+// console.log(b)
+// console.log(a)
+
+
+
+
+
+
+
