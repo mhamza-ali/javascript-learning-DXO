@@ -366,9 +366,27 @@
 
 let obj = {
     name:"Bero",
-    age:21
+    age:21,
+    "last name":"jon",
+    fun: function(){
+        console.log("i am fn")
+    },
+    arr: [10,0,30]
 }
-console.log(obj.name)
+// console.log(obj.name)
+// console.log(obj["last name"])
+// console.log(obj.fun())
+// console.log(obj.arr)
+// obj.key = "item"
+// let a = "key2"
+// obj[a] = "item2"
 
+// console.log(obj)
 
+// for(let i in obj){
+//     console.log(obj[i])
+// }
 
+// for(let i in Object.keys(obj)){
+//     console.log(obj[i])
+// }
