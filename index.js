@@ -460,8 +460,19 @@
 // }
 // console.log(length)
 
+// map
 
+// let map1 = new Map([[1,"one"],
+// ["fname","Mickey"]])
+// console.log(map1)
+// console.log(map1.get(1))
+// console.log(map1.get("fname"))
 
+// //for getting keys
+// var k = map1.keys()
+// for(var key of k){
+//     console.log(key)
+// }
 
 
 
