@@ -411,3 +411,25 @@
 // let [{name}, item2,{name:name1}] = arr;
 // console.log(name)
 // console.log(name1)
+
+//func inside func
+
+// function fun(){
+//     console.log("i am fn 1")
+//     function fun2(){
+//         console.log("I am fn 2")
+//     }
+//     fun2()
+// }
+// fun()
+
+// function fun(){
+//     var a = 1;
+//     console.log("i am fn 1 " + a)
+//     function fun2(){
+//         var a = 2 // yaha nhi milta to upper lexical scope m dhundta
+//         console.log("I am fn 2 " + a)
+//     }
+//     fun2()
+// }
+// fun()
