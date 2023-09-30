@@ -474,5 +474,30 @@
 //     console.log(key)
 // }
 
+// recursion
 
+// print no 1 to 10 without recursion
 
+// for(let i=0;i<=10;i++){
+//     console.log(i)
+// }
+
+// using recursion
+
+// function printNumberRecursive(n){
+//     if(n<=10){
+//         console.log(n)
+//         printNumberRecursive(n+1)
+//     } 
+// }
+// printNumberRecursive(1)
+
+// function factorial(n){
+//     if(n==0){
+//         return 1
+//     }
+//     else{
+//         return n*factorial(n-1)
+//     }
+// }
+// console.log(factorial(5))
