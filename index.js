@@ -501,3 +501,39 @@
 //     }
 // }
 // console.log(factorial(5))
+
+// JS is synchronous
+// learning ascynchronous
+
+// console.log("This")
+// setTimeout(fun,4000)
+
+// function fun(){
+//     console.log("lastt")
+// }
+
+// setTimeout(()=>{
+//     console.log("Asynchronous")
+// },1000)
+// console.log("IS")
+// console.log("Sync")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
