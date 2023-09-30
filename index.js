@@ -533,7 +533,38 @@
 
 // callback hell
 
+//  function loading(callback){
+//     setTimeout(()=>{
+//         console.log("1. loading..")
+//         callback()
+//     },200)
+    
+//  }
 
+//  function collecting(callback){
+//     setTimeout(()=>{
+//         console.log("2. Collecting..")
+//         callback()
+//     },5000)
+   
+//  }
+
+//  function approving(){
+//     console.log("3. Approving..")
+//  }
+
+// function approved(){
+//     console.log("4. Approved")
+// }
+
+// loading(function(){
+//     collecting(function(){
+//         approving();
+//         approved()    
+    
+//     })
+    
+// })
 
 
 
