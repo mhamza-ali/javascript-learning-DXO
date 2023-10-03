@@ -566,6 +566,19 @@
     
 // })
 
+// promise
+
+function fun(task){
+    return new Promise((resolve,reject)=>{
+        if(task){
+            resolve("Completed")
+    
+        }
+        else{
+            reject("Failed")
+        }
+    })
+}
 
 
 
