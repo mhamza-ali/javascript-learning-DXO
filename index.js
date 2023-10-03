@@ -689,19 +689,19 @@
 // obj1.fun();
 // obj1.fun.call(obj2);
 
-function fun(age){
-    console.log(this.fName,age)
-}
+// function fun(age){
+//     console.log(this.fName,age)
+// }
 
-var obj1 = {
-    fName:"Janu"
-}
+// var obj1 = {
+//     fName:"Janu"
+// }
 
-var obj2 = {
-    fName:"Ken"
-}
+// var obj2 = {
+//     fName:"Ken"
+// }
 
-fun.call(obj1,12)
+// fun.call(obj1,12)
 
 
 
