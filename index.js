@@ -652,6 +652,16 @@
 // });
 
 
+// setinterval
+
+//let num = 0;
+// setInterval(fun,2000)
+//     function fun(){
+//         num = num+1
+//         console.log(num)
+//     }
+
+
 
 
 
