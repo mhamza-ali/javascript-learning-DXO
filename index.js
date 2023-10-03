@@ -673,10 +673,35 @@
 //     clearInterval(inter)
 // },10000)
 
+// call bind and apply
 
+// var obj1 = {
+//     fName:"Janu",
+//     fun: function(){
+//         console.log(this.fName)
+//     }
+// }
 
+// var obj2 = {
+//     fName:"Ken"
+// }
 
+// obj1.fun();
+// obj1.fun.call(obj2);
 
+function fun(age){
+    console.log(this.fName,age)
+}
+
+var obj1 = {
+    fName:"Janu"
+}
+
+var obj2 = {
+    fName:"Ken"
+}
+
+fun.call(obj1,12)
 
 
 
