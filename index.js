@@ -589,7 +589,54 @@
 
 // fun(true).then(onResolve).catch(onReject)
 
+//solving callback hell problem using promises
 
+// function loadding(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log("loading..")
+//             resolve()
+            
+//         },2000)
+
+//     })
+// }
+
+// function collecting(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log("collecting..")
+//             resolve()
+            
+//         },2000)
+
+//     })
+// }
+
+// function approving(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log("approving..")
+//             reject("not fulfill")
+            
+//         },2000)
+
+//     })
+// }
+
+// function approved(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log("approved..")
+            
+//         },2000)
+
+//     })
+// }
+
+// loadding().then(collecting).then(approving).then(approved).catch((err)=>{
+//     console.log(err)
+// })
 
 
 
