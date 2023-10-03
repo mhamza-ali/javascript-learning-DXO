@@ -704,5 +704,24 @@
 // fun.call(obj1,12)
 
 
+//try catch throw
+
+// function d(a,b){
+//     try{
+//         if (b==0){
+//             throw new Error("cant divide")
+//         }
+//         else{
+//             console.log(a/b)
+//         }
+//     }catch(err){
+//         console.log(err.message)
+//     }
+// }
+
+
+// d(10,2)
+
+//fetch api
 
 
