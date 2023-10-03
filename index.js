@@ -638,6 +638,18 @@
 //     console.log(err)
 // })
 
+// async await is a good way of writing promises
+
+// async function Ex(){
+//     await loadding();
+//     await collecting();
+//     await approving();
+//     await approved();
+// }
+
+// Ex().catch((err)=>{
+//     console.log(err)
+// });
 
 
 
