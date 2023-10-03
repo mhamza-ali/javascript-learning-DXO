@@ -652,7 +652,7 @@
 // });
 
 
-// setinterval
+// setinterval and clear interval
 
 //let num = 0;
 // setInterval(fun,2000)
@@ -661,8 +661,17 @@
 //         console.log(num)
 //     }
 
+// var inter = setInterval(fun,1000)
 
+// function fun(){
+//     let date = new Date().toLocaleTimeString()
+//     console.log(date)
+    
+// }
 
+// setTimeout(()=>{
+//     clearInterval(inter)
+// },10000)
 
 
 
