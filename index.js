@@ -728,4 +728,14 @@
 // .then(response => response.json())
 // .then(json => console.log(json))
 
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     .then(response => 
+//     {
+//     if(!response.ok){
+//         throw new Error('network not responding')
+//     }
+//     return response.json()
+//     })
+//     .then(json => console.log(json))
+//     .catch(error => console.log('error'))
 
